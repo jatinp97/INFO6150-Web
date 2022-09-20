@@ -24,6 +24,7 @@ background-color: #333;
     display: flex;
     justify-content: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aqua;
   }
    a {
     display: block;
@@ -38,4 +39,11 @@ background-color: #333;
 a:hover {
     background-color: #111;
 
+  }
+
+  .profile-photo img{
+    float: right;
+    width: 30%;
+    height: 20%;
+    
   }
