@@ -18,8 +18,3 @@
 	-Animation is implemented using transition, transform, animation, @keyframes tags in CSS file.
 	
 	-In order to directly contact the person, mailto functionality is implemented in footers.
-
-	
- 
- 
-	
