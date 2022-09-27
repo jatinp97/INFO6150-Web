@@ -101,7 +101,7 @@ function addRow(){
   td8.appendChild(inputDelete);
   td9.appendChild(inputEdit);
  
-  alert("Record added successfully");
+  alert("Successfully added a new record");
 }
 
 function checkBoxClicked() {
@@ -198,17 +198,17 @@ function editFirstRow(){
 function deleteSecondRow(){
   var secondrow = document.getElementById('secondrow');
   secondrow.style.display = "none";
-  alert("Record deleted successfully");
+  alert("Successfully deleted the record");
 }
 
 function editSecondRow(){
-  alert("Edit the details");
+  alert("Editted the details");
 }
 
 function deleteThirdRow(){
   var thirdrow = document.getElementById('thirdrow');
   thirdrow.style.display = "none";
-  alert("Record deleted successfully");
+  alert("Successfully deleted the record");   
 }
 
 function editThirdRow(){

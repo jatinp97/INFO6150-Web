@@ -99,6 +99,12 @@ nav ul li a{
 nav ul li a:hover{
     color: #040303;
 }
+
+.containerText:hover{
+    background: transparent;
+    color: #ff4321;
+}
+
 .btn{
     background: #ff4321;
     border-radius: 5px;
