@@ -2,23 +2,23 @@ body {
   font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
-.socialmediaicons ul {
+.socialMediaIcons ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.socialmediaicons ul li {
+.socialMediaIcons ul li {
   display: inline-block;
   margin-left: 5px;
 }
 
-.socialmediaicons ul li img {
+.socialMediaIcons ul li img {
   width: 50px;
   border-radius: 70%;
 }
 
-.socialmediaicons{
+.socialMediaIcons{
 	text-align: center;
 }
 

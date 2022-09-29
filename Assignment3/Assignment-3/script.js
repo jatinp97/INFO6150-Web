@@ -15,10 +15,10 @@ var socialMedia = {
   youtube: 'http://youtube.com'
 };
 
-var t = new Title("CONNECT WITH ME!");
+var t = new Title("Connect!!!!");
 
 var id = 3;
-var budget = 12346;
+var budget = 12348;
 
 // function to create a new li element after cicking on add
 
@@ -27,11 +27,11 @@ function addRow(){
   id++;
   budget++;
 
-  var cb = document.createElement('input');
-  console.log(cb);
-  cb.type = 'checkbox';
-  cb.id = "checkbox"+id;
-  cb.addEventListener("change", (e)=>dynamicCB(e,id));
+  var addinfo = document.createElement('input');
+  console.log(addinfo);
+  addinfo.type = 'checkbox';
+  addinfo.id = "checkbox"+id;
+  addinfo.addEventListener("change", (e)=>dynamicCB(e,id));
   
   var img = document.createElement('img'); 
   img.src ='down.png';
@@ -89,7 +89,7 @@ function addRow(){
   var td8 = tr.insertCell();
   var td9 = tr.insertCell();
 
-  td0.appendChild(cb);
+  td0.appendChild(addinfo);
   td0.appendChild(img);
   td1.appendChild(document.createTextNode("Student " +id));
   td2.appendChild(document.createTextNode("Teacher " +id));
@@ -288,5 +288,4 @@ function downArrowDynamic(e,id){
   Comments:<br /><br /><br />
   Award Status:<br /><br /><br />`
  
-  
 }
